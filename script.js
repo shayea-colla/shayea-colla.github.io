@@ -15,7 +15,7 @@ function checkGuess() {
     let userGuess = Number(guessField.value);
 
     if ( guessCount === 1) {
-        guesses.textContent = "Previous guesses";
+        guesses.textContent = "Previous guesses: ";
     }
 
     guesses.textContent += `${userGuess} `;
